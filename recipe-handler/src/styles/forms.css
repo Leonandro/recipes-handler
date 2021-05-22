@@ -1,0 +1,46 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form__body {
+width: 60%;
+}
+
+
+.form__group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.form__label {
+    align-self: center;
+}
+
+.form__input {
+    border: 2px solid;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 5px;
+}
+
+.error {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: red;
+}
+
+.btn__container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
